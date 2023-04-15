@@ -83,3 +83,144 @@
 // } else {
 //   console.log("Це нуль");
 // }
+
+// let a = 120;
+// let b = 99;
+
+// if (a > 100 && b > 100) {
+//   if (a > b) {
+//     console.log("a is max", a);
+//   } else if (b > a) {
+//     console.log("b is max", b);
+//   } else {
+//     console.log("a and b are equals", a);
+//   }
+// } else {
+//   console.log(b + 512);
+// }
+
+// let a = 120;
+// let b = 105;
+
+// if (a > 100 && b > 100) {
+//   console.log(Math.max(a, b));
+// } else {
+//   console.log(b + 512);
+// }
+
+// let link = "https://example.com/";
+// if (link.endsWith("/")) {
+//   console.log(link);
+// } else {
+//   link += "/";
+//   console.log(link);
+// }
+
+// let link = "https://example.com/";
+// if (!link.endsWith("/")) {
+//   link += "/";
+// }
+// console.log(link);
+
+// let link = "https://example.com/";
+// if ((!link.endsWith("/")) && link.includes("my-site")) {
+//   link += "/";
+//   console.log("fixed");
+// }
+// console.log(link);
+
+// let link = "https://example.com/";
+// let isNeedToFixUrl = !link.endsWith("/") && link.includes("my-site");
+// link += isNeedToFixUrl ? "/" : "";
+// console.log(link);
+
+// const hours = 10;
+// if (hours < 17) {
+//   console.log("Pending");
+// } else if (hours >= 17 && hours <= 24) {
+//   console.log("Expires");
+// } else {
+//   console.log("Overdue");
+// }
+
+// let hours = 14;
+// if (hours < 17) {
+//   console.log("Pending");
+// } else if (hours <= 24) {
+//   console.log("Expires");
+// } else {
+//   console.log("Overdue");
+// }
+
+// const daysUntilDeadline = 5;
+
+// if (daysUntilDeadline === 0) {
+//   console.log("Сьогодні");
+// } else if (daysUntilDeadline === 1) {
+//   console.log("Завтра");
+// } else if (daysUntilDeadline === 2) {
+//   console.log("Післязавтра");
+// } else {
+//   console.log("Дата у майбутньому");
+// }
+
+// const daysUntilDeadline = 5;
+
+// switch (daysUntilDeadline) {
+//   case 0:
+//     console.log("Сьогодні");
+//     break;
+//   case 1:
+//     console.log("Завтра");
+//     break;
+//   case 2:
+//     console.log("Післязавтра");
+//     break;
+//   default:
+//     console.log("Дата у майбутньому");
+//     break;
+// }
+
+// const max = 100;
+// const min = 20;
+
+// for (let i = min; i <= max; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// const login = prompt("Введіть ваш логін:");
+// let message;
+
+// if (login === "бандерівець2023") {
+//   const password = prompt("Гасло?!");
+//   if (password === "Слава Україні") {
+//     message = "Героям Слава!";
+//   } else if (password === null || password === "") {
+//     message = "Скасовано";
+//   } else {
+//     message = "Вийди розбійник!";
+//   }
+// } else if (login === null || login === "") {
+//   message = "Скасовано";
+// } else {
+//   message = "Ви хто такі? я вас не кликав!";
+// }
+
+// console.log(message);
+
+// const login = prompt("Введіть логін");
+
+// if (!login) {
+//   console.log("Скасовано");
+// } else if (login === "бандерівець2023") {
+//   const password = prompt("Гасло?!");
+//   if (password === "Слава Україні") {
+//     console.log("Героям Слава!");
+//   } else {
+//     console.log("Вийди розбійник!");
+//   }
+// } else {
+//   console.log("Ви хто такі? Я вас не кликав!");
+// }
